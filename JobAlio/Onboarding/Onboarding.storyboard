@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6d7-21-FAZ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First Step View Controller-->
+        <scene sceneID="wET-gX-CrW">
+            <objects>
+                <viewController storyboardIdentifier="FirstStepVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UFf-xT-7X5" customClass="FirstStepViewController" customModule="JobAlio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fof-KY-tbh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="zJq-aj-8WK">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkK-Ru-XsZ">
+                                <rect key="frame" x="0.0" y="808" width="414" height="54"/>
+                                <color key="backgroundColor" red="0.28235294119999998" green="0.46666666670000001" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="Uad-eN-4UT"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHy-8g-GW2">
+                                <rect key="frame" x="20" y="820" width="56" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="건너뛰기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionBtnSkip:" destination="UFf-xT-7X5" eventType="touchUpInside" id="qmf-Gw-yon"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMr-kc-bbG">
+                                <rect key="frame" x="364" y="820" width="30" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="다음">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionBtnTapped:" destination="UFf-xT-7X5" eventType="touchUpInside" id="yDL-Nx-R0h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hql-t0-0WA"/>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zJq-aj-8WK" firstAttribute="trailing" secondItem="hql-t0-0WA" secondAttribute="trailing" id="4dS-vQ-M4K"/>
+                            <constraint firstItem="hql-t0-0WA" firstAttribute="bottom" secondItem="nMr-kc-bbG" secondAttribute="bottom" constant="10" id="E0H-ry-41i"/>
+                            <constraint firstItem="wHy-8g-GW2" firstAttribute="leading" secondItem="hql-t0-0WA" secondAttribute="leading" constant="20" id="GBW-7e-tRe"/>
+                            <constraint firstItem="hql-t0-0WA" firstAttribute="trailing" secondItem="nMr-kc-bbG" secondAttribute="trailing" constant="20" id="K88-m3-93R"/>
+                            <constraint firstItem="hql-t0-0WA" firstAttribute="bottom" secondItem="wHy-8g-GW2" secondAttribute="bottom" constant="10" id="Loe-6l-zQX"/>
+                            <constraint firstItem="zJq-aj-8WK" firstAttribute="leading" secondItem="hql-t0-0WA" secondAttribute="leading" id="MTC-cf-anJ"/>
+                            <constraint firstItem="YkK-Ru-XsZ" firstAttribute="bottom" secondItem="hql-t0-0WA" secondAttribute="bottom" id="Rvw-kv-OFn"/>
+                            <constraint firstItem="zJq-aj-8WK" firstAttribute="top" secondItem="hql-t0-0WA" secondAttribute="top" id="aTE-ux-6t6"/>
+                            <constraint firstItem="zJq-aj-8WK" firstAttribute="bottom" secondItem="hql-t0-0WA" secondAttribute="bottom" id="rfk-Jc-kQK"/>
+                            <constraint firstItem="YkK-Ru-XsZ" firstAttribute="leading" secondItem="hql-t0-0WA" secondAttribute="leading" id="y7w-u3-wYF"/>
+                            <constraint firstItem="YkK-Ru-XsZ" firstAttribute="trailing" secondItem="hql-t0-0WA" secondAttribute="trailing" id="zZ8-Iq-shh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YmY-3F-2EO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.7971014492753632" y="95.758928571428569"/>
+        </scene>
+        <!--Second Step View Controller-->
+        <scene sceneID="egS-ca-Pdm">
+            <objects>
+                <viewController storyboardIdentifier="SecondStepVC" id="r83-DL-rUl" customClass="SecondStepViewController" customModule="JobAlio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="II5-IY-sPh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="hYc-Kq-7Nc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gve-ld-i41">
+                                <rect key="frame" x="0.0" y="808" width="414" height="54"/>
+                                <color key="backgroundColor" red="0.28235294119999998" green="0.46666666670000001" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="uRL-c1-qUM"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxg-5T-gEj">
+                                <rect key="frame" x="338" y="820" width="56" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="시작하기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionBtnStart:" destination="4sM-wg-Y0z" eventType="touchUpInside" id="jbO-hT-E3x"/>
+                                    <action selector="actionBtnStart:" destination="r83-DL-rUl" eventType="touchUpInside" id="kvI-tN-WUY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jl5-mg-uYd">
+                                <rect key="frame" x="53" y="820" width="88" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="다시보지 않기"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ca-vB-kc1">
+                                <rect key="frame" x="20" y="823" width="25" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="checkmark.circle" catalog="system" symbolScale="large" renderingMode="template"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCheckShowBox:" destination="4sM-wg-Y0z" eventType="touchUpInside" id="Q47-py-OY5"/>
+                                    <action selector="btnCheckShowBox:" destination="r83-DL-rUl" eventType="touchUpInside" id="w1o-vz-hyb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pUh-Rs-b4o"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pUh-Rs-b4o" firstAttribute="bottom" secondItem="jl5-mg-uYd" secondAttribute="bottom" constant="10" id="DLj-LZ-WzL"/>
+                            <constraint firstItem="Gve-ld-i41" firstAttribute="bottom" secondItem="pUh-Rs-b4o" secondAttribute="bottom" id="NIQ-sP-paQ"/>
+                            <constraint firstItem="9Ca-vB-kc1" firstAttribute="leading" secondItem="pUh-Rs-b4o" secondAttribute="leading" constant="20" id="Pkd-rB-Oxi"/>
+                            <constraint firstItem="hYc-Kq-7Nc" firstAttribute="top" secondItem="pUh-Rs-b4o" secondAttribute="top" id="Ppa-fi-VLq"/>
+                            <constraint firstItem="Gve-ld-i41" firstAttribute="leading" secondItem="pUh-Rs-b4o" secondAttribute="leading" id="S3F-Yl-HHK"/>
+                            <constraint firstItem="jl5-mg-uYd" firstAttribute="leading" secondItem="9Ca-vB-kc1" secondAttribute="trailing" constant="8" id="SPf-C2-r4x"/>
+                            <constraint firstItem="hYc-Kq-7Nc" firstAttribute="trailing" secondItem="pUh-Rs-b4o" secondAttribute="trailing" id="Tev-F3-rkx"/>
+                            <constraint firstItem="Gve-ld-i41" firstAttribute="trailing" secondItem="pUh-Rs-b4o" secondAttribute="trailing" id="UtW-LS-hx7"/>
+                            <constraint firstItem="hYc-Kq-7Nc" firstAttribute="leading" secondItem="pUh-Rs-b4o" secondAttribute="leading" id="WJ2-Ix-lOV"/>
+                            <constraint firstItem="pUh-Rs-b4o" firstAttribute="trailing" secondItem="Qxg-5T-gEj" secondAttribute="trailing" constant="20" id="XzK-6q-pU8"/>
+                            <constraint firstItem="pUh-Rs-b4o" firstAttribute="bottom" secondItem="9Ca-vB-kc1" secondAttribute="bottom" constant="15" id="hQZ-zU-UEN"/>
+                            <constraint firstItem="pUh-Rs-b4o" firstAttribute="bottom" secondItem="Qxg-5T-gEj" secondAttribute="bottom" constant="10" id="k51-3d-UOz"/>
+                            <constraint firstItem="hYc-Kq-7Nc" firstAttribute="bottom" secondItem="pUh-Rs-b4o" secondAttribute="bottom" id="pCS-ZG-1cs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fgg-rH-mnZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="732" y="96"/>
+        </scene>
+        <!--Third Step View Controller-->
+        <scene sceneID="aRn-Oh-601">
+            <objects>
+                <viewController storyboardIdentifier="ThirdStepVC" id="4sM-wg-Y0z" customClass="ThirdStepViewController" customModule="JobAlio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y2f-9T-bTd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="hI9-BY-Dhk">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2s-VF-xYy">
+                                <rect key="frame" x="0.0" y="808" width="414" height="54"/>
+                                <color key="backgroundColor" red="0.28235294119999998" green="0.46666666670000001" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="cNb-LN-HVj"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tg9-bT-Ur4">
+                                <rect key="frame" x="338" y="820" width="56" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="시작하기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionBtnStart:" destination="4sM-wg-Y0z" eventType="touchUpInside" id="qzv-e0-7uh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2w2-EW-z7u">
+                                <rect key="frame" x="53" y="820" width="88" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="다시보지 않기"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48k-b8-gtz">
+                                <rect key="frame" x="20" y="823" width="25" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <imageReference key="image" image="checkmark.circle" catalog="system" symbolScale="large" renderingMode="template"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCheckShowBox:" destination="4sM-wg-Y0z" eventType="touchUpInside" id="heW-oo-5Ew"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ntm-2E-0aK"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ntm-2E-0aK" firstAttribute="bottom" secondItem="Tg9-bT-Ur4" secondAttribute="bottom" constant="10" id="08N-KJ-5hp"/>
+                            <constraint firstItem="hI9-BY-Dhk" firstAttribute="trailing" secondItem="Ntm-2E-0aK" secondAttribute="trailing" id="0Lo-jk-FVd"/>
+                            <constraint firstItem="hI9-BY-Dhk" firstAttribute="leading" secondItem="Ntm-2E-0aK" secondAttribute="leading" id="74S-Fy-1tD"/>
+                            <constraint firstItem="hI9-BY-Dhk" firstAttribute="bottom" secondItem="Ntm-2E-0aK" secondAttribute="bottom" id="F5F-JU-OU4"/>
+                            <constraint firstItem="Ntm-2E-0aK" firstAttribute="bottom" secondItem="J2s-VF-xYy" secondAttribute="bottom" id="Hn3-nJ-Dxp"/>
+                            <constraint firstItem="J2s-VF-xYy" firstAttribute="leading" secondItem="Ntm-2E-0aK" secondAttribute="leading" id="JaU-RE-c9I"/>
+                            <constraint firstItem="Ntm-2E-0aK" firstAttribute="bottom" secondItem="2w2-EW-z7u" secondAttribute="bottom" constant="10" id="Uz7-CZ-8oK"/>
+                            <constraint firstItem="48k-b8-gtz" firstAttribute="leading" secondItem="Ntm-2E-0aK" secondAttribute="leading" constant="20" id="YSD-3m-Gdf"/>
+                            <constraint firstItem="Ntm-2E-0aK" firstAttribute="bottom" secondItem="48k-b8-gtz" secondAttribute="bottom" constant="15" id="YuT-V5-tQW"/>
+                            <constraint firstItem="J2s-VF-xYy" firstAttribute="trailing" secondItem="Ntm-2E-0aK" secondAttribute="trailing" id="d6d-Xu-NxU"/>
+                            <constraint firstItem="Ntm-2E-0aK" firstAttribute="trailing" secondItem="Tg9-bT-Ur4" secondAttribute="trailing" constant="20" id="m2C-ng-HKB"/>
+                            <constraint firstItem="2w2-EW-z7u" firstAttribute="leading" secondItem="48k-b8-gtz" secondAttribute="trailing" constant="8" id="uLe-AM-6IZ"/>
+                            <constraint firstItem="hI9-BY-Dhk" firstAttribute="top" secondItem="Ntm-2E-0aK" secondAttribute="top" id="wnv-5o-isy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nUo-pN-bGU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1758" y="96"/>
+        </scene>
+        <!--Main Page View Controller-->
+        <scene sceneID="IJP-N6-1SV">
+            <objects>
+                <pageViewController storyboardIdentifier="Welcome" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="6d7-21-FAZ" customClass="MainPageViewController" customModule="JobAlio" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jjf-gH-rgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-700" y="96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkmark.circle" catalog="system" width="128" height="121"/>
+        <image name="onboarding_1.jpeg" width="1080" height="2280"/>
+        <image name="onboarding_2.jpeg" width="360" height="760"/>
+        <image name="onboarding_3.jpeg" width="360" height="760"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_JobAlio {
+  umbrella header "Pods-JobAlio-umbrella.h"
+
+  export *
+  module * { export * }
+}

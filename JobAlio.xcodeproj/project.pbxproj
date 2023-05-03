@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11993EA236B2FFF4F2BB417D /* Pods_JobAlio_JobAlioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A27E7F88B4DF4314C586807 /* Pods_JobAlio_JobAlioUITests.framework */; };
+		180414B226A90E4E0056B161 /* ico_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 180414B126A90E4E0056B161 /* ico_error.png */; };
+		18238C99269FBD630022C3A3 /* LogoAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18238C98269FBD630022C3A3 /* LogoAnimationViewController.swift */; };
+		183F20C5269FCEB00035C2CA /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F20C4269FCEB00035C2CA /* UIView+Constraints.swift */; };
+		183F20CD26A003230035C2CA /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183F20CC26A003230035C2CA /* Onboarding.storyboard */; };
+		184D334726A1666700AF77DA /* LandscapeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D334626A1666700AF77DA /* LandscapeManager.swift */; };
+		184D335326A1675900AF77DA /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D335226A1675900AF77DA /* MainPageViewController.swift */; };
+		184D335826A1676100AF77DA /* FirstStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D335726A1676100AF77DA /* FirstStepViewController.swift */; };
+		184D335D26A1676700AF77DA /* SecondStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D335C26A1676700AF77DA /* SecondStepViewController.swift */; };
+		184D336226A1676D00AF77DA /* ThirdStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D336126A1676D00AF77DA /* ThirdStepViewController.swift */; };
+		184D337226A16C6E00AF77DA /* ConciergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D337126A16C6E00AF77DA /* ConciergeViewController.swift */; };
+		184D338226A1708700AF77DA /* Storyboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D338126A1708700AF77DA /* Storyboard+Ext.swift */; };
+		1859C5652840518600C8B234 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859C5642840518600C8B234 /* PageViewController.swift */; };
+		1866EE98268458F7009DDA9E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1866EE97268458F7009DDA9E /* WebKit.framework */; };
+		1883B506268312D000E9D89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883B505268312D000E9D89A /* AppDelegate.swift */; };
+		1883B508268312D000E9D89A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883B507268312D000E9D89A /* SceneDelegate.swift */; };
+		1883B50D268312D000E9D89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1883B50B268312D000E9D89A /* Main.storyboard */; };
+		1883B50F268312D100E9D89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1883B50E268312D100E9D89A /* Assets.xcassets */; };
+		1883B512268312D100E9D89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1883B510268312D100E9D89A /* LaunchScreen.storyboard */; };
+		1883B51D268312D200E9D89A /* JobAlioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883B51C268312D200E9D89A /* JobAlioTests.swift */; };
+		1883B528268312D200E9D89A /* JobAlioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883B527268312D200E9D89A /* JobAlioUITests.swift */; };
+		1894226D283DE85100CD85F0 /* Onboarding2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894226C283DE85100CD85F0 /* Onboarding2.storyboard */; };
+		18B6815F26896A0A007E0BA7 /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6815E26896A0A007E0BA7 /* PopupController.swift */; };
+		18E317EF2817B00C00AE40B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18E317EE2817B00C00AE40B6 /* GoogleService-Info.plist */; };
+		18E318142817BCE900AE40B6 /* jobalio_Splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E318132817BCE900AE40B6 /* jobalio_Splash.gif */; };
+		18E3181C2817BD3000AE40B6 /* onboarding_1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18E3181B2817BD3000AE40B6 /* onboarding_1.jpeg */; };
+		18E318242817BD3E00AE40B6 /* onboarding_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18E318232817BD3E00AE40B6 /* onboarding_2.jpeg */; };
+		4E45A69425309C05CA32EFA5 /* Pods_JobAlioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57137F56554410C7E9986E6 /* Pods_JobAlioTests.framework */; };
+		864DBF89574706A3642727FE /* Pods_JobAlio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64400B1423DEF7A9AEF8FBE /* Pods_JobAlio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1883B519268312D200E9D89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1883B4FA268312D000E9D89A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1883B501268312D000E9D89A;
+			remoteInfo = JobAlio;
+		};
+		1883B524268312D200E9D89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1883B4FA268312D000E9D89A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1883B501268312D000E9D89A;
+			remoteInfo = JobAlio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030586980912DD53A77DCCC6 /* Pods-JobAlioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobAlioTests.debug.xcconfig"; path = "Target Support Files/Pods-JobAlioTests/Pods-JobAlioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		04177330B84540C91EC7A287 /* Pods-JobAlio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobAlio.debug.xcconfig"; path = "Target Support Files/Pods-JobAlio/Pods-JobAlio.debug.xcconfig"; sourceTree = "<group>"; };
+		180414B126A90E4E0056B161 /* ico_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_error.png; sourceTree = "<group>"; };
+		18238C98269FBD630022C3A3 /* LogoAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationViewController.swift; sourceTree = "<group>"; };
+		182D0B862706998B00CA81AD /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		183F20C4269FCEB00035C2CA /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		183F20CC26A003230035C2CA /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		184D334626A1666700AF77DA /* LandscapeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeManager.swift; sourceTree = "<group>"; };
+		184D335226A1675900AF77DA /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		184D335726A1676100AF77DA /* FirstStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstStepViewController.swift; sourceTree = "<group>"; };
+		184D335C26A1676700AF77DA /* SecondStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondStepViewController.swift; sourceTree = "<group>"; };
+		184D336126A1676D00AF77DA /* ThirdStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdStepViewController.swift; sourceTree = "<group>"; };
+		184D337126A16C6E00AF77DA /* ConciergeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConciergeViewController.swift; sourceTree = "<group>"; };
+		184D338126A1708700AF77DA /* Storyboard+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Ext.swift"; sourceTree = "<group>"; };
+		1859C5642840518600C8B234 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		1866EE97268458F7009DDA9E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1883B502268312D000E9D89A /* JobAlio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobAlio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883B505268312D000E9D89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1883B507268312D000E9D89A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1883B50C268312D000E9D89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1883B50E268312D100E9D89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1883B511268312D100E9D89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1883B513268312D100E9D89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		1883B518268312D200E9D89A /* JobAlioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobAlioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883B51C268312D200E9D89A /* JobAlioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobAlioTests.swift; sourceTree = "<group>"; };
+		1883B523268312D200E9D89A /* JobAlioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobAlioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883B527268312D200E9D89A /* JobAlioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobAlioUITests.swift; sourceTree = "<group>"; };
+		1883B529268312D200E9D89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1894226C283DE85100CD85F0 /* Onboarding2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding2.storyboard; sourceTree = "<group>"; };
+		18B6815E26896A0A007E0BA7 /* PopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupController.swift; sourceTree = "<group>"; };
+		18CA8B49270598A5000AAA52 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		18CE01B92695966800B59D66 /* JobAlio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobAlio.entitlements; sourceTree = "<group>"; };
+		18E317EE2817B00C00AE40B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../certification/jobalio_cer/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18E318132817BCE900AE40B6 /* jobalio_Splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jobalio_Splash.gif; sourceTree = "<group>"; };
+		18E3181B2817BD3000AE40B6 /* onboarding_1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onboarding_1.jpeg; sourceTree = "<group>"; };
+		18E318232817BD3E00AE40B6 /* onboarding_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onboarding_2.jpeg; sourceTree = "<group>"; };
+		18ECFA2726944CBA00E4FFCE /* JobAlioRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobAlioRelease.entitlements; sourceTree = "<group>"; };
+		33B051946AB3DF0C6022D010 /* Pods-JobAlio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobAlio.release.xcconfig"; path = "Target Support Files/Pods-JobAlio/Pods-JobAlio.release.xcconfig"; sourceTree = "<group>"; };
+		3748B9CB50FC810F8E5235F6 /* Pods-JobAlioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobAlioTests.release.xcconfig"; path = "Target Support Files/Pods-JobAlioTests/Pods-JobAlioTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E61075FD05CCC086229337E /* Pods-JobAlio-JobAlioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobAlio-JobAlioUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobAlio-JobAlioUITests/Pods-JobAlio-JobAlioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A27E7F88B4DF4314C586807 /* Pods_JobAlio_JobAlioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobAlio_JobAlioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A42C41394EBE7DC033642A /* Pods-JobAlio-JobAlioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobAlio-JobAlioUITests.release.xcconfig"; path = "Target Support Files/Pods-JobAlio-JobAlioUITests/Pods-JobAlio-JobAlioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C64400B1423DEF7A9AEF8FBE /* Pods_JobAlio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobAlio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57137F56554410C7E9986E6 /* Pods_JobAlioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobAlioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1883B4FF268312D000E9D89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866EE98268458F7009DDA9E /* WebKit.framework in Frameworks */,
+				864DBF89574706A3642727FE /* Pods_JobAlio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883B515268312D200E9D89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E45A69425309C05CA32EFA5 /* Pods_JobAlioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883B520268312D200E9D89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11993EA236B2FFF4F2BB417D /* Pods_JobAlio_JobAlioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18233830269D52F300321231 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				180414B126A90E4E0056B161 /* ico_error.png */,
+				18E3181B2817BD3000AE40B6 /* onboarding_1.jpeg */,
+				18E318232817BD3E00AE40B6 /* onboarding_2.jpeg */,
+				18E318132817BCE900AE40B6 /* jobalio_Splash.gif */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		184D334426A1662300AF77DA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				184D334626A1666700AF77DA /* LandscapeManager.swift */,
+				184D334526A1663700AF77DA /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		184D334526A1663700AF77DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				184D338126A1708700AF77DA /* Storyboard+Ext.swift */,
+				183F20C4269FCEB00035C2CA /* UIView+Constraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		184D334B26A1669100AF77DA /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				18233830269D52F300321231 /* img */,
+				184D334D26A166B800AF77DA /* Main */,
+				184D334C26A166AC00AF77DA /* Launch */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		184D334C26A166AC00AF77DA /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				184D336D26A16AEF00AF77DA /* Controllers */,
+				1883B510268312D100E9D89A /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		184D334D26A166B800AF77DA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1883B50B268312D000E9D89A /* Main.storyboard */,
+				184D334E26A166C200AF77DA /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		184D334E26A166C200AF77DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				184D337126A16C6E00AF77DA /* ConciergeViewController.swift */,
+				18B6815E26896A0A007E0BA7 /* PopupController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		184D335026A1670E00AF77DA /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1894226C283DE85100CD85F0 /* Onboarding2.storyboard */,
+				183F20CC26A003230035C2CA /* Onboarding.storyboard */,
+				184D335126A1672200AF77DA /* Controllers */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		184D335126A1672200AF77DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1859C5642840518600C8B234 /* PageViewController.swift */,
+				184D335226A1675900AF77DA /* MainPageViewController.swift */,
+				184D335726A1676100AF77DA /* FirstStepViewController.swift */,
+				184D335C26A1676700AF77DA /* SecondStepViewController.swift */,
+				184D336126A1676D00AF77DA /* ThirdStepViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		184D336626A167AA00AF77DA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1883B505268312D000E9D89A /* AppDelegate.swift */,
+				1883B507268312D000E9D89A /* SceneDelegate.swift */,
+				1883B50E268312D100E9D89A /* Assets.xcassets */,
+				1883B513268312D100E9D89A /* Info.plist */,
+				18E317EE2817B00C00AE40B6 /* GoogleService-Info.plist */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		184D336D26A16AEF00AF77DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18238C98269FBD630022C3A3 /* LogoAnimationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1866EE96268458F7009DDA9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182D0B862706998B00CA81AD /* FirebaseMessaging.framework */,
+				18CA8B49270598A5000AAA52 /* PushKit.framework */,
+				1866EE97268458F7009DDA9E /* WebKit.framework */,
+				C64400B1423DEF7A9AEF8FBE /* Pods_JobAlio.framework */,
+				5A27E7F88B4DF4314C586807 /* Pods_JobAlio_JobAlioUITests.framework */,
+				D57137F56554410C7E9986E6 /* Pods_JobAlioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1883B4F9268312D000E9D89A = {
+			isa = PBXGroup;
+			children = (
+				1883B504268312D000E9D89A /* JobAlio */,
+				1883B51B268312D200E9D89A /* JobAlioTests */,
+				1883B526268312D200E9D89A /* JobAlioUITests */,
+				1883B503268312D000E9D89A /* Products */,
+				1866EE96268458F7009DDA9E /* Frameworks */,
+				535A14B36770D02E28997224 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1883B503268312D000E9D89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1883B502268312D000E9D89A /* JobAlio.app */,
+				1883B518268312D200E9D89A /* JobAlioTests.xctest */,
+				1883B523268312D200E9D89A /* JobAlioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1883B504268312D000E9D89A /* JobAlio */ = {
+			isa = PBXGroup;
+			children = (
+				18ECFA2726944CBA00E4FFCE /* JobAlioRelease.entitlements */,
+				18CE01B92695966800B59D66 /* JobAlio.entitlements */,
+				184D336626A167AA00AF77DA /* Utilities */,
+				184D335026A1670E00AF77DA /* Onboarding */,
+				184D334B26A1669100AF77DA /* UI Elements */,
+				184D334426A1662300AF77DA /* Helpers */,
+			);
+			path = JobAlio;
+			sourceTree = "<group>";
+		};
+		1883B51B268312D200E9D89A /* JobAlioTests */ = {
+			isa = PBXGroup;
+			children = (
+				1883B51C268312D200E9D89A /* JobAlioTests.swift */,
+			);
+			path = JobAlioTests;
+			sourceTree = "<group>";
+		};
+		1883B526268312D200E9D89A /* JobAlioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1883B527268312D200E9D89A /* JobAlioUITests.swift */,
+				1883B529268312D200E9D89A /* Info.plist */,
+			);
+			path = JobAlioUITests;
+			sourceTree = "<group>";
+		};
+		535A14B36770D02E28997224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04177330B84540C91EC7A287 /* Pods-JobAlio.debug.xcconfig */,
+				33B051946AB3DF0C6022D010 /* Pods-JobAlio.release.xcconfig */,
+				4E61075FD05CCC086229337E /* Pods-JobAlio-JobAlioUITests.debug.xcconfig */,
+				92A42C41394EBE7DC033642A /* Pods-JobAlio-JobAlioUITests.release.xcconfig */,
+				030586980912DD53A77DCCC6 /* Pods-JobAlioTests.debug.xcconfig */,
+				3748B9CB50FC810F8E5235F6 /* Pods-JobAlioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1883B501268312D000E9D89A /* JobAlio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1883B52C268312D200E9D89A /* Build configuration list for PBXNativeTarget "JobAlio" */;
+			buildPhases = (
+				CD3FB505C22404B560A92D83 /* [CP] Check Pods Manifest.lock */,
+				1883B4FE268312D000E9D89A /* Sources */,
+				1883B4FF268312D000E9D89A /* Frameworks */,
+				1883B500268312D000E9D89A /* Resources */,
+				F864673F30083918D8433258 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobAlio;
+			productName = JobAlio;
+			productReference = 1883B502268312D000E9D89A /* JobAlio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1883B517268312D200E9D89A /* JobAlioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1883B52F268312D200E9D89A /* Build configuration list for PBXNativeTarget "JobAlioTests" */;
+			buildPhases = (
+				92D0A19A05741175A1D766CC /* [CP] Check Pods Manifest.lock */,
+				1883B514268312D200E9D89A /* Sources */,
+				1883B515268312D200E9D89A /* Frameworks */,
+				1883B516268312D200E9D89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1883B51A268312D200E9D89A /* PBXTargetDependency */,
+			);
+			name = JobAlioTests;
+			productName = JobAlioTests;
+			productReference = 1883B518268312D200E9D89A /* JobAlioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1883B522268312D200E9D89A /* JobAlioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1883B532268312D200E9D89A /* Build configuration list for PBXNativeTarget "JobAlioUITests" */;
+			buildPhases = (
+				0E19BE69E3051FCA6B5C2598 /* [CP] Check Pods Manifest.lock */,
+				1883B51F268312D200E9D89A /* Sources */,
+				1883B520268312D200E9D89A /* Frameworks */,
+				1883B521268312D200E9D89A /* Resources */,
+				238FB4049C11169DCCAD96B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1883B525268312D200E9D89A /* PBXTargetDependency */,
+			);
+			name = JobAlioUITests;
+			productName = JobAlioUITests;
+			productReference = 1883B523268312D200E9D89A /* JobAlioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1883B4FA268312D000E9D89A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1883B501268312D000E9D89A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1883B517268312D200E9D89A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1883B501268312D000E9D89A;
+					};
+					1883B522268312D200E9D89A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 1883B501268312D000E9D89A;
+					};
+				};
+			};
+			buildConfigurationList = 1883B4FD268312D000E9D89A /* Build configuration list for PBXProject "JobAlio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1883B4F9268312D000E9D89A;
+			productRefGroup = 1883B503268312D000E9D89A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1883B501268312D000E9D89A /* JobAlio */,
+				1883B517268312D200E9D89A /* JobAlioTests */,
+				1883B522268312D200E9D89A /* JobAlioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1883B500268312D000E9D89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3181C2817BD3000AE40B6 /* onboarding_1.jpeg in Resources */,
+				183F20CD26A003230035C2CA /* Onboarding.storyboard in Resources */,
+				18E318142817BCE900AE40B6 /* jobalio_Splash.gif in Resources */,
+				1883B512268312D100E9D89A /* LaunchScreen.storyboard in Resources */,
+				1894226D283DE85100CD85F0 /* Onboarding2.storyboard in Resources */,
+				1883B50F268312D100E9D89A /* Assets.xcassets in Resources */,
+				18E318242817BD3E00AE40B6 /* onboarding_2.jpeg in Resources */,
+				18E317EF2817B00C00AE40B6 /* GoogleService-Info.plist in Resources */,
+				180414B226A90E4E0056B161 /* ico_error.png in Resources */,
+				1883B50D268312D000E9D89A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883B516268312D200E9D89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883B521268312D200E9D89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E19BE69E3051FCA6B5C2598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobAlio-JobAlioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		238FB4049C11169DCCAD96B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JobAlio-JobAlioUITests/Pods-JobAlio-JobAlioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JobAlio-JobAlioUITests/Pods-JobAlio-JobAlioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobAlio-JobAlioUITests/Pods-JobAlio-JobAlioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D0A19A05741175A1D766CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobAlioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3FB505C22404B560A92D83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JobAlio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F864673F30083918D8433258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JobAlio/Pods-JobAlio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JobAlio/Pods-JobAlio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JobAlio/Pods-JobAlio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1883B4FE268312D000E9D89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184D338226A1708700AF77DA /* Storyboard+Ext.swift in Sources */,
+				184D335326A1675900AF77DA /* MainPageViewController.swift in Sources */,
+				184D336226A1676D00AF77DA /* ThirdStepViewController.swift in Sources */,
+				1883B506268312D000E9D89A /* AppDelegate.swift in Sources */,
+				18238C99269FBD630022C3A3 /* LogoAnimationViewController.swift in Sources */,
+				1883B508268312D000E9D89A /* SceneDelegate.swift in Sources */,
+				184D334726A1666700AF77DA /* LandscapeManager.swift in Sources */,
+				184D335D26A1676700AF77DA /* SecondStepViewController.swift in Sources */,
+				18B6815F26896A0A007E0BA7 /* PopupController.swift in Sources */,
+				184D335826A1676100AF77DA /* FirstStepViewController.swift in Sources */,
+				1859C5652840518600C8B234 /* PageViewController.swift in Sources */,
+				184D337226A16C6E00AF77DA /* ConciergeViewController.swift in Sources */,
+				183F20C5269FCEB00035C2CA /* UIView+Constraints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883B514268312D200E9D89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883B51D268312D200E9D89A /* JobAlioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883B51F268312D200E9D89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883B528268312D200E9D89A /* JobAlioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1883B51A268312D200E9D89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1883B501268312D000E9D89A /* JobAlio */;
+			targetProxy = 1883B519268312D200E9D89A /* PBXContainerItemProxy */;
+		};
+		1883B525268312D200E9D89A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1883B501268312D000E9D89A /* JobAlio */;
+			targetProxy = 1883B524268312D200E9D89A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1883B50B268312D000E9D89A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1883B50C268312D000E9D89A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1883B510268312D100E9D89A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1883B511268312D100E9D89A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1883B52A268312D200E9D89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1883B52B268312D200E9D89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1883B52D268312D200E9D89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04177330B84540C91EC7A287 /* Pods-JobAlio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JobAlio/JobAlio.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = PPBF69BCKC;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PPBF69BCKC;
+				INFOPLIST_FILE = JobAlio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftyGif\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alioteam.jobalio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = JOBALIO;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "JobAlio Development";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1883B52E268312D200E9D89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B051946AB3DF0C6022D010 /* Pods-JobAlio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JobAlio/JobAlioRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = PPBF69BCKC;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = PPBF69BCKC;
+				INFOPLIST_FILE = JobAlio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftyGif\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"UserNotifications\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alioteam.jobalio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = jobalio;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "JobAlio Development";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1883B530268312D200E9D89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030586980912DD53A77DCCC6 /* Pods-JobAlioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPBF69BCKC;
+				INFOPLIST_FILE = JobAlioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = easycode.JobAlioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobAlio.app/JobAlio";
+			};
+			name = Debug;
+		};
+		1883B531268312D200E9D89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3748B9CB50FC810F8E5235F6 /* Pods-JobAlioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PPBF69BCKC;
+				INFOPLIST_FILE = JobAlioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = easycode.JobAlioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobAlio.app/JobAlio";
+			};
+			name = Release;
+		};
+		1883B533268312D200E9D89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E61075FD05CCC086229337E /* Pods-JobAlio-JobAlioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPBF69BCKC;
+				INFOPLIST_FILE = JobAlioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = easycode.JobAlioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JobAlio;
+			};
+			name = Debug;
+		};
+		1883B534268312D200E9D89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A42C41394EBE7DC033642A /* Pods-JobAlio-JobAlioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPBF69BCKC;
+				INFOPLIST_FILE = JobAlioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = easycode.JobAlioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JobAlio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1883B4FD268312D000E9D89A /* Build configuration list for PBXProject "JobAlio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883B52A268312D200E9D89A /* Debug */,
+				1883B52B268312D200E9D89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1883B52C268312D200E9D89A /* Build configuration list for PBXNativeTarget "JobAlio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883B52D268312D200E9D89A /* Debug */,
+				1883B52E268312D200E9D89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1883B52F268312D200E9D89A /* Build configuration list for PBXNativeTarget "JobAlioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883B530268312D200E9D89A /* Debug */,
+				1883B531268312D200E9D89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1883B532268312D200E9D89A /* Build configuration list for PBXNativeTarget "JobAlioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883B533268312D200E9D89A /* Debug */,
+				1883B534268312D200E9D89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1883B4FA268312D000E9D89A /* Project object */;
+}
